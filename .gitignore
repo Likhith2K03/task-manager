@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+.venv_backup/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Test and tooling caches
+.pytest_cache/
+
+# Package build metadata
+*.egg-info/
+build/
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
